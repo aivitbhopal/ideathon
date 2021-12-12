@@ -1,0 +1,39 @@
+a{
+    color: white;
+}
+
+.filler{
+    height: 20px;
+    
+}
+
+.navbar{
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.btn{
+    border: 1px solid #2BFE80;
+    margin: 2% 2% 2% 2%;
+    transition: 1s;
+    background-color:  inherit;
+}
+
+.btn:hover{
+    background-color: #2BFE80;
+    color: black;
+}
+
+.breadcrumb{
+    background-color: inherit;
+}
+
+.title{
+    font-family: 'Aleo';
+    font-size: 6em;
+}
+
+.sub-title{
+    display: flex;
+    flex-wrap: wrap;
+}
