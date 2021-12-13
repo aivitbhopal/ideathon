@@ -135,9 +135,10 @@ body::-webkit-scrollbar {
 
 .home-col-left{
     padding-top: 30vh;
+    padding-left: 40vh;
 }
 .home-col-right{
-    margin-top: 30vh;
+    margin-top: 33vh;
 }
 
 .home-img{

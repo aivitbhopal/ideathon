@@ -37,3 +37,7 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
+
+.sub-topic{
+    font-size: 1em;
+}
