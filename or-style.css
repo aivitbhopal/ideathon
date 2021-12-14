@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    /* overflow-y: hidden; */
 }
 
 body {
@@ -17,7 +18,7 @@ body::-webkit-scrollbar {
 
 /* Navbar Start */
 .navbar{
-    background-color: inherit;
+    background-color: transparent;
 }
 .nav-text{
     color: #ffffff;
@@ -27,63 +28,6 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 600px){
     .navbar{
         display: none;
-    }
-}
-
-/* Heading start */
-
-.heading{
-    width: 50vw;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    z-index: 3;
-    text-align: left;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-}
-
-.heading h2{
-    position: absolute;
-    font-weight:bold;
-    font-size: 6em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-    z-index: 4;
-}
-
-.heading p{
-    margin-top: -3.5vh;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: transparent;
-	font-size: 8em;
-	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-}
-
-@media screen and (max-width: 600px){
-    .heading{
-        width: 92vw;
-        height: 10vh;
-        /* border: 3px solid red; */
-        /* top: -12%; */
-    }
-    .heading h2{
-        font-size: 3.5em;
-        margin-top: -0.2vh;
-    }
-    .heading p{
-        margin-top: -3vh;
-        letter-spacing: -0.03em;
-        font-size: 5em;
     }
 }
 
@@ -134,7 +78,7 @@ body::-webkit-scrollbar {
   }
 
 .home-col-left{
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-left: 35vh;
 }
 .home-col-right{
@@ -199,10 +143,10 @@ body::-webkit-scrollbar {
     color: white;
     font-weight: bold;
     position: absolute;
-    top: 112%;
+    top: 100%;
     left: 1%;
     z-index: 3;
-    text-align: justify;
+    text-align: left;
     /* border: 3px solid red; */
 }
 
@@ -229,9 +173,17 @@ body::-webkit-scrollbar {
     height: 40vh;
     padding-left: 25vh;
 }
-.about-p h1{
-    font-size: 2em;
-    text-align: center;
+.about-text h1{
+    font-size: 4em;
+    /* text-align: center; */
+    font-family: 'Aleo';
+    /* font-size: 6em; */
+}
+.about-col-left{
+    margin-top: 25vh;
+}
+.about-col-right{
+    margin-top:20vh;
 }
 @media screen and (max-width: 700px){
     .about{
@@ -278,15 +230,21 @@ body::-webkit-scrollbar {
     color: rgb(255, 255, 255);
     font-weight: bold;
     position: absolute;
-    top: 212%;
+    top: 230%;
     left: 1%;
     z-index: 3;
     text-align: center;   
 }
 
+.ideathon-text h2{
+    font-size: 4em;
+    /* text-align: center; */
+    font-family: 'Aleo';  
+}
+
 .details{
     font-family: Oxygen;
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
 }
 
 .details .box{

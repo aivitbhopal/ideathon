@@ -1,4 +1,3 @@
-
 a{
     color: white;
 }
@@ -52,7 +51,7 @@ a{
 #clock{
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     font-family: 'Aleo';
     font-size: 3em;
     font-weight: bolder;
@@ -60,7 +59,7 @@ a{
 }
 
 .row{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .centrify{
