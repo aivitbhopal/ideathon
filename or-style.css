@@ -428,6 +428,10 @@ h2 {
     z-index: 1;
     position: relative;
   }
+
+  .our-team h3{
+      font-size: 1.4em;
+  }
   
   .our-team .picture::before {
     content: "";
