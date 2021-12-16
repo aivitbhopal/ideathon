@@ -403,8 +403,8 @@ h2 {
 
 .judges{
     /* background-color: rgb(59, 117, 0); */
-    /* padding-left: 10vw;
-    padding-right: 10vw; */
+    padding-left: 10vw;
+    padding-right: 10vw;
     /* height: 100vh; */
     width: 100%;
     z-index: -2;
