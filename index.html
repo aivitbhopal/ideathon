@@ -1,5 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Ideathon </title>
     <link rel="icon" href="images/ICON.png">
     <!--Fonts-->
@@ -27,8 +31,8 @@
         <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#ideathon">Ideathon</a>
         <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#judges">Judges</a>
         <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#timeline">Timeline</a>
-        <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#register">Registration</a>
-        <!-- <a class="nav-text flex-sm-fill text-sm-center nav-link disabled" href="#register">Result</a> -->
+        <a class="nav-text flex-sm-fill text-sm-center nav-link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeVOAe7CYL_YLwXKRXgIt-3Qpk20DmYLnpBbL3GUi10Ccw4Ag/viewform?usp=sf_link">Registration</a>
         <a class="nav-text flex-sm-fill text-sm-center nav-link " href="#faqs">FAQs</a>
         <a class="navbar-brand" href="index.html">
             <img class="logo" src="images/division-logo.png" style="width: 10vw;" alt="image">
@@ -43,8 +47,8 @@
                 <div class="col-md-8 home-col-left">
                     <div class="breadcrumb"></div>
                     <div class="breadcrumb"></div>
-                    <img src="./images/vit-logo.png" class="logo-img">
-                    <img src="./images/division-logo.png" class="logo-img">
+                    <img src="./images/vit-logo.png" class="logo-img" alt="">
+                    <img src="./images/division-logo.png" class="logo-img" alt="">
                     <p class="title">IDEATHON</p>
                     <p class="sub-topic">AI Division @ VIT Bhopal presents to you a weekend full of excitement,<br>
                         packed with guidance, gaining insights and many more opportunities.</p>
@@ -52,10 +56,10 @@
                     <h3><strong>REGISTRATIONS ARE NOW OPEN!</strong></h3>
                     <p><i>Grab the opportunity before it fades away with the timer!</i></p>
                     <p id="clock"></p>
-                    <a href="#register" class="btn btn-lg">Register Now</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVOAe7CYL_YLwXKRXgIt-3Qpk20DmYLnpBbL3GUi10Ccw4Ag/viewform?usp=sf_link"
+                        class="btn btn-lg">Register Now</a>
                 </div>
                 <div class="col-md-4 home-col-right">
-                    <!-- <img src="./images/3d_art.png" class="home-img"> -->
                 </div>
             </div>
         </div>
@@ -67,15 +71,15 @@
         <div class="about">
             <div class="row1-container">
                 <div class="box1 box-down cyan">
-                    <h2>Ideathon</h2>
-                    <p>Research on existing problems as a team to formulate a solution for the same which is feasible,
-                        unique and relevant.</p>
+                    <h2>Team Building</h2>
+                    <p>You will have to build teams of 2-5 members and work in collaboration with your team.</p>
                     <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
                 </div>
                 <div class="box1 red">
-                    <h2>Team Building</h2>
-                    <p>You will have to build teams of 2-5 members and work in collaboration with your team.</p>
-                    <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+                    <h2>Ideathon</h2>
+                    <p>Research on existing problems as a team to formulate a solution for the same which is feasible,
+                        unique and relevant.</p>
+                    <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
                 </div>
                 <div class="box1 box-down blue">
                     <h2>Phases</h2>
@@ -87,7 +91,7 @@
                 <div class="box1 orange">
                     <h2>Prizes</h2>
                     <p>Winner of each phase will recive a prize of Rs 5000</p>
-                    <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+                    <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
                 </div>
             </div>
         </div>
@@ -95,29 +99,32 @@
     <!-- End of About -->
     <!-- Ideathon -->
     <section id="ideathon">
-        <div style="height: 10vh;"></div>
+        <div style="height: 15vh;"></div>
+        <div class="row text-center justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8">
+                <h1 class="font-weight-bold">IDEATHON TRACKS</h1>
+            </div>
+        </div>
         <div class="container1">
             <div class="card1">
                 <div class="face face1">
                     <div class="content1">
-                        <img
-                            src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                        <img src="images/design_128.png" alt="">
                         <h3>Agriculture</h3>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis
-                            provident at.</p>
-                        <a href="#">Read More</a>
+                        <p>AI can provide farmers with real-time insights from their fields, allowing them to identify
+                            areas that need irrigation, fertilization, or pesticide treatment.</p>
+                        <a href="pdf/agriculture.pdf">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="card1">
                 <div class="face face1">
                     <div class="content1">
-                        <img
-                            src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                        <img src="images/code_128.png" alt="">
                         <h3>Healthcare</h3>
                     </div>
                 </div>
@@ -125,23 +132,22 @@
                     <div class="content1">
                         <p>“AI will not replace doctors, but instead will augment them, enabling physicians to practice
                             better medicine with greater accuracy and increased efficiency” - Benjamin Bell</p>
-                        <a href="#">Read More</a>
+                        <a href="pdf/healthcare.pdf">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="card1">
                 <div class="face face1">
                     <div class="content1">
-                        <img
-                            src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                        <img src="images/launch_128.png" alt="">
                         <h3>Education</h3>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis
-                            provident at.</p>
-                        <a href="#">Read More</a>
+                        <p>“I visualise a time when we will be to robots what dogs are to humans, and I’m rooting for
+                            the machines.” - Claude Shannon</p>
+                        <a href="pdf/education.pdf">Read More</a>
                     </div>
                 </div>
             </div>
@@ -150,14 +156,19 @@
     <!-- End of Ideathon -->
     <!-- Judges start -->
     <section id="judges">
-        <div style="height: 20vh;"></div>
+        <div style="height: 15vh;"></div>
+        <div class="row text-center justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8">
+                <h1 class="font-weight-bold">JUDGES</h1>
+            </div>
+        </div>
+        <br><br>
         <div class="judges">
             <div class="row">
-                <!-- <div class="col-12 col-sm-6 col-md-4 col-lg-1"></div> -->
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="images/dr.Sountharrajan.jpg">
+                            <img class="img-fluid" src="images/dr.Sountharrajan.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h3 class="name">Dr S Sountharrajan</h3>
@@ -178,7 +189,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="images/DrMayuri.jpg">
+                            <img class="img-fluid" src="images/DrMayuri.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h3 class="name">Dr AVR Mayuri</h3>
@@ -199,7 +210,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="images/DrSuthir.jpg">
+                            <img class="img-fluid" src="images/DrSuthir.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h3 class="name">Dr Suthir S</h3>
@@ -220,7 +231,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <img class="img-fluid" src="images/Saravanan.jpg">
+                            <img class="img-fluid" src="images/Saravanan.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h3 class="name">Dr Sarvanan S</h3>
@@ -238,65 +249,78 @@
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="col-12 col-sm-6 col-md-4 col-lg-1"></div> -->
             </div>
             <div style="height: 20vh;"></div>
         </div>
     </section>
     <!-- Judges end -->
-
     <!--Timeline-->
-    <div class="container">                      
-        <div class="row text-center justify-content-center mb-5">
-            <div class="col-xl-6 col-lg-8">
-                <h1 class="font-weight-bold">TIMELINE</h1>
+    <section id="timeline">
+        <div class="container">
+            <div class="row text-center justify-content-center mb-5">
+                <div class="col-xl-6 col-lg-8">
+                    <h1 class="font-weight-bold">TIMELINE</h1>
+                </div>
             </div>
-        </div>
-    
-        <div class="row">
-            <div class="col">
-                <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
-                            <div class="inner-circle"></div>
-                            <p class="h5 mt-3 mb-1">26th Dec, 2021</p>
-                            <p class="h7 mb-0 mb-lg-0">Last Date for Registration.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2003">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">26th Dec, 2021</p>
+                                <p class="h7 mb-0 mb-lg-0">Last Date for Registration.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
-                            <div class="inner-circle"></div>
-                            <p class="h5 mt-3 mb-1">28th Dec, 2021</p>
-                            <p class="h7 mb-0 mb-lg-0">Last Date for Idea Submission.</p>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2004">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">28th Dec, 2021</p>
+                                <p class="h7 mb-0 mb-lg-0">Last Date for Idea Submission.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
-                            <div class="inner-circle"></div>
-                            <p class="h5 mt-3 mb-1">31st Dec, 2021</p>
-                            <p class="h7 mb-0 mb-lg-0">Announcing 3 teams from each track.</p>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2005">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">31st Dec, 2021</p>
+                                <p class="h7 mb-0 mb-lg-0">Announcing 3 teams from each track.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
-                            <div class="inner-circle"></div>
-                            <p class="h5 mt-3 mb-1">2nd Jan, 2022</p>
-                            <p class="h7 mb-0 mb-lg-0">Presenting idea in the form of PPT for top 3 teams.</p>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2010">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">2nd Jan, 2022</p>
+                                <p class="h7 mb-0 mb-lg-0">Presenting idea in the form of PPT for top 3 teams.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="timeline-step mb-0">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
-                            <div class="inner-circle"></div>
-                            <p class="h5 mt-3 mb-1">5th Jan, 2022</p>
-                            <p class="h7 mb-0 mb-lg-0">Winner Announcement for each track.</p>
+                        <div class="timeline-step mb-0">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2020">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">5th Jan, 2022</p>
+                                <p class="h7 mb-0 mb-lg-0">Winner Announcement for each track.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--Timeline End-->
-
     <!--JS Scripts-->
     <script src="./script.js"></script>
     <!--JS Scripts for Bootstrap-->
@@ -310,23 +334,6 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <!-- Vanta JS -->
-    <!-- <script src="js/three.min.js"></script>
-    <script src="js/vanta.net.min.js"></script>
-    <script>
-        VANTA.NET({
-            el: ".home",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0x3fffe8,
-            backgroundColor: 0x160035,
-            points: 11.00
-        })
-    </script> -->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.globe.min.js"></script>
     <script>
