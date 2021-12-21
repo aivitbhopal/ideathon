@@ -301,7 +301,7 @@ h2 {
 
 .container1 .card1 .face.face1{
     position: relative;
-    background: #2bfe7f;
+    background: #3586ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,7 +441,7 @@ h2 {
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #2BFE80;
+    background-color: #3586ff;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -460,7 +460,7 @@ h2 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #2BFE80;
+    background-color: #3586ff;
     position: absolute;
     top: 0;
     left: 0;
@@ -491,7 +491,7 @@ h2 {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #2BFE80;
+    background-color: #3586ff;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -516,7 +516,7 @@ h2 {
   }
   
   .our-team .social li a:hover {
-    color: #2BFE80;
+    color: #3586ff;
     background-color: #f7f5ec;
   }
 

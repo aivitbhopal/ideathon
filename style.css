@@ -13,13 +13,13 @@ a{
 }
 
 .btn{
-    border: 1px solid #2BFE80;
+    border: 1px solid #3586ff;
     transition: 1s;
     background-color:  inherit;
 }
 
 .btn:hover{
-    background-color: #2BFE80;
+    background-color: #3586ff;
     color: black;
 }
 
@@ -55,7 +55,7 @@ a{
     font-family: 'Aleo';
     font-size: 3em;
     font-weight: bolder;
-    color: #2BFE80;
+    color: #3586ff;
 }
 
 .row{
@@ -80,18 +80,18 @@ a{
     flex-direction: column;
     position: relative;
     margin: 1rem;
-    opacity: .5;
+    opacity: 1;
 }
 
 .timeline-steps .timeline-step:hover{
-    opacity: .9;
+    opacity: .6;
 }
 
 @media (min-width:768px) {
     .timeline-steps .timeline-step:not(:last-child):after {
         content: "";
         display: block;
-        border-top: .25rem dotted #2BFE80;
+        border-top: .25rem dotted #3586ff;
         width: 3.46rem;
         position: absolute;
         left: 7.5rem;
@@ -100,7 +100,7 @@ a{
     .timeline-steps .timeline-step:not(:first-child):before {
         content: "";
         display: block;
-        border-top: .25rem dotted #2BFE80;
+        border-top: .25rem dotted #3586ff;
         width: 3.8125rem;
         position: absolute;
         right: 7.5rem;
@@ -121,12 +121,12 @@ a{
     align-items: center;
     justify-content: center;
     transition: 1s;
-    background-color: #2BFE80
+    background-color: #3586ff
 }
 
 .timeline-steps .timeline-content .inner-circle::before {
     content: "";
-    background-color: #2BFE80;
+    background-color: #3586ff;
     display: inline-block;
     height: 3rem;
     width: 3rem;
