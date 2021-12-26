@@ -58,9 +58,9 @@ a{
     color: #3586ff;
 }
 
-.row{
-    /* width: 100%; */
-}
+/* .row{
+    width: 100%;
+} */
 
 .centrify{
     display: flex;
@@ -148,7 +148,7 @@ a{
       margin: 2rem 10%;
   }
   .fullwidth-container {display:block;width:80%;margin:2rem 10%}
-  #faqs {}
+
   .line-heading {
     font-family: sans-serif;
     color: #ccd6f6;
@@ -190,7 +190,7 @@ a{
 /** The Faq Section **/
 #faqSection div {
 float: left;
-display: inline-block;
+/* display: inline-block; */
 width: 46%;
 margin: 0 2%;
 overflow: hidden;
