@@ -49,7 +49,51 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
+.text-hightlight{
+  font-weight:600;
+}
+.border-box{
+  
+}
+.prize-card img{
+  height: 65vh;
+}
+.prize-card .details p{
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(14, 27, 77);
+}
+.prize-card .details h4{
+  cursor: pointer;
+  font-size: 20px;
 
+ 
+}
+.prize-card .details h3{
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(14, 27, 77);
+
+}
+.prize-card{
+  background-color: #F6F7FC;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid transparent;
+
+  border-radius: 10px;
+}
+.margin-card-bottom{
+  margin-bottom: 40px  !important;
+}
+.text-align-justify{
+  text-align: justify !important;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
