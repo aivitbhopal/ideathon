@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ideathon </title>
+    <link rel="icon" href="images/ICON.png">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64a1d8848a.js" crossorigin="anonymous"></script>
+    <!--CSS for Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--Local Stylesheet-->
+    <link href="./or-style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div class="filler"></div>
+    <nav class="navbar fixed-top flex-column flex-sm-row" style="padding-left: 2%;padding-right: 2%;">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/vit-logo.png" style="width: 10vw;" alt="image">
+        </a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link active" href="#home">Home</a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#about">About</a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#ideathon">Ideathon</a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#judges">Judges</a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link" href="#timeline">Timeline</a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link" href="">Result</a>
+        <a class="nav-text flex-sm-fill text-sm-center nav-link " href="#faqs">FAQs</a>
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/division-logo.png" style="width: 10vw;" alt="image">
+        </a>
+    </nav>
+    <!--End of Navigation Bar-->
+    <!--Homepage-->
+    <section id="home">
+        <div class="home"></div>
+        <div class="home-text">
+            <div class="row">
+                <div class="col-md-8 home-col-left">
+                    <div class="breadcrumb"></div>
+                    <div class="breadcrumb"></div>
+                    <img src="./images/vit-logo.png" class="logo-img" alt="">
+                    <img src="./images/division-logo.png" class="logo-img" alt="">
+                    <p class="title">IDEATHON</p>
+                    <p class="sub-topic">AI Division @ VIT Bhopal presents to you a weekend full of excitement,<br>
+                        packed with guidance, gaining insights and many more opportunities.</p>
+                    <br>
+                    <h3><strong>Check Shortlisted Candidates!</strong></h3>
+                    <p><i>Grab the opportunity before it fades away with the timer!</i></p>
+                    <p id="clock"></p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVOAe7CYL_YLwXKRXgIt-3Qpk20DmYLnpBbL3GUi10Ccw4Ag/viewform?usp=sf_link"
+                        class="btn btn-lg">Check Result!</a>
+                </div>
+                <div class="col-md-4 home-col-right">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Homepage-->
+    <!-- About -->
+    <section id="about">
+        <div style="height: 15vh;"></div>
+        <div class="about">
+            <div class="row1-container">
+                <div class="box1 box-down cyan">
+                    <h2>Team Building</h2>
+                    <p>You will have to build teams of 1-5 members and work in collaboration with your team.</p>
+                    <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+                </div>
+                <div class="box1 red">
+                    <h2>Ideathon</h2>
+                    <p>Research on existing problems as a team to formulate a solution for the same which is feasible,
+                        unique and relevant.</p>
+                    <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+                </div>
+                <div class="box1 box-down blue">
+                    <h2>Phases</h2>
+                    <p>The ideathon will be conducted in two phases</p>
+                    <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+                </div>
+            </div>
+            <div class="row2-container">
+                <div class="box1 orange">
+                    <h2>Prizes</h2>
+                    <p>Winner of each phase will receive a prize of Rs 5000</p>
+                    <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About -->
+    <!-- Ideathon -->
+    <section id="ideathon">
+        <div style="height: 15vh;"></div>
+        <div class="row text-center justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8">
+                <h1 class="font-weight-bold">IDEATHON TRACKS</h1>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="card1">
+                <div class="face face1">
+                    <div class="content1">
+                        <img src="images/agriculture.png" alt="">
+                        <h3>Agriculture</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content1">
+                        <p>AI can provide farmers with real-time insights from their fields, allowing them to identify
+                            areas that need irrigation, fertilization, or pesticide treatment.</p>
+                        <a href="pdf/agriculture.pdf">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="face face1">
+                    <div class="content1">
+                        <img src="images/Healthcare.png" alt="">
+                        <h3>Healthcare</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content1">
+                        <p>“AI will not replace doctors, but instead will augment them, enabling physicians to practice
+                            better medicine with greater accuracy and increased efficiency” - Benjamin Bell</p>
+                        <a href="pdf/healthcare.pdf">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="face face1">
+                    <div class="content1">
+                        <img src="images/education.png" alt="">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content1">
+                        <p>“I visualise a time when we will be to robots what dogs are to humans, and I’m rooting for
+                            the machines.” - Claude Shannon</p>
+                        <a href="pdf/education.pdf">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Ideathon -->
+    <!-- Judges start -->
+    <section id="judges">
+        <div style="height: 15vh;"></div>
+        <div class="row text-center justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8">
+                <h1 class="font-weight-bold">JUDGES</h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="judges">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="images/dr.Sountharrajan.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Dr S Sountharrajan</h3>
+                            <h4 class="title">Division Head - Artificial Intelligence</h4>
+                        </div>
+                        <!-- <ul class="social">
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin"
+                                    aria-hidden="true"></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="images/DrMayuri.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Dr AVR Mayuri</h3>
+                            <h4 class="title">Program Chair - Integrated M.Tech - AI</h4>
+                        </div>
+                        <!-- <ul class="social">
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin"
+                                    aria-hidden="true"></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="images/DrSuthir.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Dr Suthir S</h3>
+                            <h4 class="title">Artificial Intelligence Division</h4>
+                        </div>
+                        <!-- <ul class="social">
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin"
+                                    aria-hidden="true"></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="images/Saravanan.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Dr Sarvanan S</h3>
+                            <h4 class="title">Artificial Intelligence Division</h4>
+                        </div>
+                        <!-- <ul class="social">
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                                    aria-hidden="true"></a></li>
+                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin"
+                                    aria-hidden="true"></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+            <div style="height: 20vh;"></div>
+        </div>
+    </section>
+    <!-- Judges end -->
+    <!--Timeline-->
+    <section id="timeline">
+        <div style="height: 15vh;"></div>
+        <div class="container">
+            <div class="row text-center justify-content-center mb-5">
+                <div class="col-xl-6 col-lg-8">
+                    <h1 class="font-weight-bold">TIMELINE</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2003">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">26th Dec, 2021</p>
+                                <p class="h7 mb-0 mb-lg-0">Last Date for Registration.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2004">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">28th Dec, 2021</p>
+                                <p class="h7 mb-0 mb-lg-0">Last Date for Idea Submission.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2005">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">31st Dec, 2021</p>
+                                <p class="h7 mb-0 mb-lg-0">Announcing 3 teams from each track.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2010">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">2nd Jan, 2022</p>
+                                <p class="h7 mb-0 mb-lg-0">Presenting idea in the form of PPT for top 3 teams.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step mb-0">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                data-placement="top" title=""
+                                data-content="And here's some amazing content. It's very engaging. Right?"
+                                data-original-title="2020">
+                                <div class="inner-circle"></div>
+                                <p class="h5 mt-3 mb-1">5th Jan, 2022</p>
+                                <p class="h7 mb-0 mb-lg-0">Winner Announcement for each track.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Timeline End-->
+    <!--FAQ-->
+    <section id="faqs">
+        <div style="height: 15vh;"></div>
+        <div class="row text-center justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-8">
+                <h1 class="font-weight-bold">FAQs</h1>
+            </div>
+        </div>
+        <div id="faq" class="faq-container">
+            <div id="faqSection" class="fullwidth-container">
+                <div>
+                    <button class="collapsible">How do I register for the Ideathon?</button>
+                    <div class="faq-content">
+                        <p>You have to fill a google form by clicking on register now on the home page.</p>
+                    </div>
+                    <button class="collapsible">Are there any entry fees for the ideathon?</button>
+                    <div class="faq-content">
+                        <p>There is no entry fee for registering in the ideathon.</p>
+                    </div>
+                    <button class="collapsible">Is it a team or an individual event?</button>
+                    <div class="faq-content">
+                        <p>It is a team event but you can participate individually also. A team can have maximum five
+                            participants.</p>
+                    </div>
+                    <button class="collapsible">How do I get regular updates about the competition?</button>
+                    <div class="faq-content">
+                        <p>Team leader will be getting regular mails of all the important updates.</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="collapsible">Are there any prerequisites?</button>
+                    <div class="faq-content">
+                        <p>No, There is no prerequisite as no coding is needed. The main thing you would need is a
+                            stable internet connectionaswell as a Laptop for the final round.</p>
+                    </div>
+                    <button class="collapsible">Will we be guided during the ideathon?</button>
+                    <div class="faq-content">
+                        <p>A guide will be allotted to each team selected in final round.</p>
+                    </div>
+                    <button class="collapsible">What is the deadline for registering?</button>
+                    <div class="faq-content">
+                        <p>The last date for registration is 26th December 2021.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of FAQ-->
+    <div class="breadcrumb big"></div>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://aiclub.aivit.tech/">
+                    <i class='bx bx-globe'></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link"
+                    href="https://www.linkedin.com/company/aiclub-vitb/">
+                    <i class='bx bxl-linkedin'></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/aiclub.vitb/"
+                    alt="Instagram">
+                    <i class='bx bxl-instagram'></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="mailto:aiclub.vitbhopal@gmail.com"
+                    alt="Instagram">
+                    <i class='bx bx-mail-send'></i>
+                </a></li>
+        </ul>
+        <p>&copy;2021 AI Division | All Rights Reserved</p>
+    </footer>
+    <!--End of footer-->
+    <!--JS Scripts-->
+    <script src="./script.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+    <!-- <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script> -->
+    <!--JS Scripts for Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- Vanta JS -->
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.globe.min.js"></script>
+    <script>
+        VANTA.GLOBE({
+            el: ".home",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3fffe8,
+            color2: 0xfff,
+            backgroundColor: 0x160035
+        })
+    </script>
+</body>
+</html>
