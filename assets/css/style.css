@@ -167,9 +167,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .flip-card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   border-radius: 10px;
+   flex-direction: column;
+
   padding:2rem;
   background-color: #F6F7FC;
-  color: white;
+
   transform: rotateY(180deg);
 }
 
@@ -182,6 +188,20 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+.back-details{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  columns: black;
+}
+.back-details h2{
+  font-size: 2.3rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  height: 100% !important; 
+}
 
 /* Prize card  */
 
