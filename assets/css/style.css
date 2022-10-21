@@ -45,6 +45,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #0e1b4d;
 }
 
+.event_discription{
+ 
+  font-size: 1.2rem !important;
+}
+
 .main-page {
   margin-top: 70px;
 }
@@ -69,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 65vh;
 }
 .prize-card .details p{
+
   font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -88,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .prize-card{
+  position: relative !important;
   background-color: #F6F7FC;
   justify-content: center;
   align-items: center;
@@ -959,6 +966,29 @@ h1, h2, h3, h4, h5, h6 {
   color: #152b79;
   margin-bottom: 0;
 }
+
+.rules_content{
+
+  display: flex;
+  flex-direction: column;
+
+}
+.rule{
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.rule p{
+  margin-bottom: 0;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #0E1B4D;
+  font-weight: 500;
+}
+
 
 /*--------------------------------------------------------------
 # Venue Section
