@@ -987,20 +987,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-.rules_content{
+
+
+.rules_contents{
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 .rule{
 
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+ display: flex;
+ align-items: center;
+ 
   width: 100%;
   height: 100%;
 }
+
+
 .rule p{
   margin-bottom: 0;
   margin-left: 1rem;
@@ -1009,10 +1015,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+
+
+.rule_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.rules_contents p{
+  font-size: 1.3rem;
+  color: #0E1B4D;
+}
+
+.rules_contents p svg{
+  margin-right: 0.5rem;
+}
+
+
 #myButton{
-  border-color:  #0E1B4D;
+  margin-top: 0.2rem;
+  border: 0;
+
   color:#0E1B4D ;
-  background-image: linear-gradient(45deg, #0E1B4D 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #F82249 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   transition: background 300ms ease-in-out;
@@ -1633,3 +1660,4 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   color: #ddd;
 }
+
