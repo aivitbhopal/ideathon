@@ -1009,6 +1009,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+#myButton{
+  border-color:  #0E1B4D;
+  color:#0E1B4D ;
+  background-image: linear-gradient(45deg, #0E1B4D 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+  border-radius: 17%;
+}
+#myButton:hover {
+  background-position: 0;
+  color:#fff;
+}
+
 
 /*--------------------------------------------------------------
 # Venue Section
