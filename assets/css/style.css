@@ -358,8 +358,9 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 .buy-tickets:hover {
-  background: none;
+  background: rgba(84, 84, 84, 0.33);
   color: #fff;
+  cursor: not-allowed;
 }
 .buy-tickets:focus {
   color: #fff;
