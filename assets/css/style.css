@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 .buy-tickets:hover {
   background: rgba(84, 84, 84, 0.33);
   color: #fff;
-  cursor: not-allowed;
+  /* cursor: not-allowed; */
 }
 .buy-tickets:focus {
   color: #fff;
